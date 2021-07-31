@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second {
+    color: red;
+}
+.grid {
+    margin-top: 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.single {
+    width: 150%;
+    height: 120%;
+    border: 1px solid black;
+    text-align: center;
+}
